@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A954DC1D68F4E6003BDFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A954AF1D68F4E6003BDFBD /* Assets.xcassets */; };
+		03A954DD1D68F4E6003BDFBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A954B01D68F4E6003BDFBD /* LaunchScreen.storyboard */; };
+		03A954DE1D68F4E6003BDFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A954B21D68F4E6003BDFBD /* Main.storyboard */; };
+		03A954DF1D68F4E6003BDFBD /* GEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954B51D68F4E6003BDFBD /* GEAppDelegate.m */; };
+		03A954E01D68F4E6003BDFBD /* GEAutocompleteTextSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954B71D68F4E6003BDFBD /* GEAutocompleteTextSearch.m */; };
+		03A954E11D68F4E6003BDFBD /* GECommonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954B91D68F4E6003BDFBD /* GECommonResponse.m */; };
+		03A954E21D68F4E6003BDFBD /* GEDateTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954BC1D68F4E6003BDFBD /* GEDateTimePicker.m */; };
+		03A954E31D68F4E6003BDFBD /* GEGeoSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954BE1D68F4E6003BDFBD /* GEGeoSearchService.m */; };
+		03A954E41D68F4E6003BDFBD /* GEGeoSearchServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954C01D68F4E6003BDFBD /* GEGeoSearchServiceRequest.m */; };
+		03A954E51D68F4E6003BDFBD /* GEGeoSearchServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954C21D68F4E6003BDFBD /* GEGeoSearchServiceResponse.m */; };
+		03A954E61D68F4E6003BDFBD /* GELocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954C41D68F4E6003BDFBD /* GELocation.m */; };
+		03A954E71D68F4E6003BDFBD /* GEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954C71D68F4E6003BDFBD /* GEMainViewController.m */; };
+		03A954E81D68F4E6003BDFBD /* GESearchLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954C91D68F4E6003BDFBD /* GESearchLocationManager.m */; };
+		03A954E91D68F4E6003BDFBD /* GEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954CB1D68F4E6003BDFBD /* GEUtility.m */; };
+		03A954EA1D68F4E6003BDFBD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03A954CC1D68F4E6003BDFBD /* Info.plist */; };
+		03A954EB1D68F4E6003BDFBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954CD1D68F4E6003BDFBD /* main.m */; };
+		03A954EC1D68F4E6003BDFBD /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954CF1D68F4E6003BDFBD /* NSString+Common.m */; };
+		03A954ED1D68F4E6003BDFBD /* SALogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A954D21D68F4E6003BDFBD /* SALogger.swift */; };
+		03A954EE1D68F4E6003BDFBD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A954D51D68F4E6003BDFBD /* Reachability.swift */; };
+		03A954EF1D68F4E6003BDFBD /* SANetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A954D71D68F4E6003BDFBD /* SANetworkUtility.swift */; };
+		03A954F01D68F4E6003BDFBD /* SAWebFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A954D91D68F4E6003BDFBD /* SAWebFetcher.swift */; };
+		03A954F11D68F4E6003BDFBD /* UIViewController+KeyboardFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A954DB1D68F4E6003BDFBD /* UIViewController+KeyboardFeature.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03404A5C1D0CC2F8002E4C1D /* AutocompleteSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutocompleteSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A954AF1D68F4E6003BDFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03A954B11D68F4E6003BDFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03A954B31D68F4E6003BDFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03A954B41D68F4E6003BDFBD /* GEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEAppDelegate.h; sourceTree = "<group>"; };
+		03A954B51D68F4E6003BDFBD /* GEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEAppDelegate.m; sourceTree = "<group>"; };
+		03A954B61D68F4E6003BDFBD /* GEAutocompleteTextSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEAutocompleteTextSearch.h; sourceTree = "<group>"; };
+		03A954B71D68F4E6003BDFBD /* GEAutocompleteTextSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEAutocompleteTextSearch.m; sourceTree = "<group>"; };
+		03A954B81D68F4E6003BDFBD /* GECommonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GECommonResponse.h; sourceTree = "<group>"; };
+		03A954B91D68F4E6003BDFBD /* GECommonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GECommonResponse.m; sourceTree = "<group>"; };
+		03A954BA1D68F4E6003BDFBD /* GEConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEConstants.h; sourceTree = "<group>"; };
+		03A954BB1D68F4E6003BDFBD /* GEDateTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEDateTimePicker.h; sourceTree = "<group>"; };
+		03A954BC1D68F4E6003BDFBD /* GEDateTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEDateTimePicker.m; sourceTree = "<group>"; };
+		03A954BD1D68F4E6003BDFBD /* GEGeoSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEGeoSearchService.h; sourceTree = "<group>"; };
+		03A954BE1D68F4E6003BDFBD /* GEGeoSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEGeoSearchService.m; sourceTree = "<group>"; };
+		03A954BF1D68F4E6003BDFBD /* GEGeoSearchServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEGeoSearchServiceRequest.h; sourceTree = "<group>"; };
+		03A954C01D68F4E6003BDFBD /* GEGeoSearchServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEGeoSearchServiceRequest.m; sourceTree = "<group>"; };
+		03A954C11D68F4E6003BDFBD /* GEGeoSearchServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEGeoSearchServiceResponse.h; sourceTree = "<group>"; };
+		03A954C21D68F4E6003BDFBD /* GEGeoSearchServiceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEGeoSearchServiceResponse.m; sourceTree = "<group>"; };
+		03A954C31D68F4E6003BDFBD /* GELocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GELocation.h; sourceTree = "<group>"; };
+		03A954C41D68F4E6003BDFBD /* GELocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GELocation.m; sourceTree = "<group>"; };
+		03A954C51D68F4E6003BDFBD /* GELocationSearchProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GELocationSearchProtocol.h; sourceTree = "<group>"; };
+		03A954C61D68F4E6003BDFBD /* GEMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEMainViewController.h; sourceTree = "<group>"; };
+		03A954C71D68F4E6003BDFBD /* GEMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEMainViewController.m; sourceTree = "<group>"; };
+		03A954C81D68F4E6003BDFBD /* GESearchLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESearchLocationManager.h; sourceTree = "<group>"; };
+		03A954C91D68F4E6003BDFBD /* GESearchLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESearchLocationManager.m; sourceTree = "<group>"; };
+		03A954CA1D68F4E6003BDFBD /* GEUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEUtility.h; sourceTree = "<group>"; };
+		03A954CB1D68F4E6003BDFBD /* GEUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEUtility.m; sourceTree = "<group>"; };
+		03A954CC1D68F4E6003BDFBD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A954CD1D68F4E6003BDFBD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03A954CE1D68F4E6003BDFBD /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		03A954CF1D68F4E6003BDFBD /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		03A954D21D68F4E6003BDFBD /* SALogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SALogger.swift; sourceTree = "<group>"; };
+		03A954D41D68F4E6003BDFBD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		03A954D51D68F4E6003BDFBD /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		03A954D71D68F4E6003BDFBD /* SANetworkUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SANetworkUtility.swift; sourceTree = "<group>"; };
+		03A954D91D68F4E6003BDFBD /* SAWebFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAWebFetcher.swift; sourceTree = "<group>"; };
+		03A954DA1D68F4E6003BDFBD /* UIViewController+KeyboardFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyboardFeature.h"; sourceTree = "<group>"; };
+		03A954DB1D68F4E6003BDFBD /* UIViewController+KeyboardFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyboardFeature.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03404A591D0CC2F8002E4C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03404A531D0CC2F8002E4C1D = {
+			isa = PBXGroup;
+			children = (
+				03A954AE1D68F4E6003BDFBD /* AutocompleteSearch */,
+				03404A5D1D0CC2F8002E4C1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03404A5D1D0CC2F8002E4C1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03404A5C1D0CC2F8002E4C1D /* AutocompleteSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03A954AE1D68F4E6003BDFBD /* AutocompleteSearch */ = {
+			isa = PBXGroup;
+			children = (
+				03A954F81D68F58C003BDFBD /* NetworkServices */,
+				03A954D01D68F4E6003BDFBD /* SAPI */,
+				03A954F71D68F545003BDFBD /* Utils */,
+				03A954F61D68F51A003BDFBD /* Main */,
+				03A954F51D68F513003BDFBD /* ViewControllers */,
+				03A954F41D68F50C003BDFBD /* CustomControls */,
+				03A954F31D68F4FC003BDFBD /* Models */,
+				03A954F21D68F4F6003BDFBD /* Views */,
+				03A954AF1D68F4E6003BDFBD /* Assets.xcassets */,
+				03A954CC1D68F4E6003BDFBD /* Info.plist */,
+			);
+			path = AutocompleteSearch;
+			sourceTree = "<group>";
+		};
+		03A954D01D68F4E6003BDFBD /* SAPI */ = {
+			isa = PBXGroup;
+			children = (
+				03A954D11D68F4E6003BDFBD /* Core */,
+				03A954D31D68F4E6003BDFBD /* Reachability */,
+				03A954D61D68F4E6003BDFBD /* Utility */,
+				03A954D81D68F4E6003BDFBD /* WebFetcher */,
+			);
+			path = SAPI;
+			sourceTree = "<group>";
+		};
+		03A954D11D68F4E6003BDFBD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				03A954D21D68F4E6003BDFBD /* SALogger.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		03A954D31D68F4E6003BDFBD /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				03A954D41D68F4E6003BDFBD /* Reachability.h */,
+				03A954D51D68F4E6003BDFBD /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		03A954D61D68F4E6003BDFBD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				03A954D71D68F4E6003BDFBD /* SANetworkUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		03A954D81D68F4E6003BDFBD /* WebFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				03A954D91D68F4E6003BDFBD /* SAWebFetcher.swift */,
+			);
+			path = WebFetcher;
+			sourceTree = "<group>";
+		};
+		03A954F21D68F4F6003BDFBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03A954B01D68F4E6003BDFBD /* LaunchScreen.storyboard */,
+				03A954B21D68F4E6003BDFBD /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		03A954F31D68F4FC003BDFBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03A954FB1D68F5EE003BDFBD /* Manager */,
+				03A954C31D68F4E6003BDFBD /* GELocation.h */,
+				03A954C41D68F4E6003BDFBD /* GELocation.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		03A954F41D68F50C003BDFBD /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				03A954BB1D68F4E6003BDFBD /* GEDateTimePicker.h */,
+				03A954BC1D68F4E6003BDFBD /* GEDateTimePicker.m */,
+				03A954B61D68F4E6003BDFBD /* GEAutocompleteTextSearch.h */,
+				03A954B71D68F4E6003BDFBD /* GEAutocompleteTextSearch.m */,
+			);
+			name = CustomControls;
+			sourceTree = "<group>";
+		};
+		03A954F51D68F513003BDFBD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				03A954C61D68F4E6003BDFBD /* GEMainViewController.h */,
+				03A954C71D68F4E6003BDFBD /* GEMainViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		03A954F61D68F51A003BDFBD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				03A954CD1D68F4E6003BDFBD /* main.m */,
+				03A954B41D68F4E6003BDFBD /* GEAppDelegate.h */,
+				03A954B51D68F4E6003BDFBD /* GEAppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		03A954F71D68F545003BDFBD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				03A954DA1D68F4E6003BDFBD /* UIViewController+KeyboardFeature.h */,
+				03A954DB1D68F4E6003BDFBD /* UIViewController+KeyboardFeature.m */,
+				03A954CE1D68F4E6003BDFBD /* NSString+Common.h */,
+				03A954CF1D68F4E6003BDFBD /* NSString+Common.m */,
+				03A954CA1D68F4E6003BDFBD /* GEUtility.h */,
+				03A954CB1D68F4E6003BDFBD /* GEUtility.m */,
+				03A954BA1D68F4E6003BDFBD /* GEConstants.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		03A954F81D68F58C003BDFBD /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				03A954FA1D68F5A6003BDFBD /* Base */,
+				03A954F91D68F59B003BDFBD /* SearchLocation */,
+			);
+			name = NetworkServices;
+			sourceTree = "<group>";
+		};
+		03A954F91D68F59B003BDFBD /* SearchLocation */ = {
+			isa = PBXGroup;
+			children = (
+				03A954BD1D68F4E6003BDFBD /* GEGeoSearchService.h */,
+				03A954BE1D68F4E6003BDFBD /* GEGeoSearchService.m */,
+				03A954BF1D68F4E6003BDFBD /* GEGeoSearchServiceRequest.h */,
+				03A954C01D68F4E6003BDFBD /* GEGeoSearchServiceRequest.m */,
+				03A954C11D68F4E6003BDFBD /* GEGeoSearchServiceResponse.h */,
+				03A954C21D68F4E6003BDFBD /* GEGeoSearchServiceResponse.m */,
+			);
+			name = SearchLocation;
+			sourceTree = "<group>";
+		};
+		03A954FA1D68F5A6003BDFBD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				03A954B81D68F4E6003BDFBD /* GECommonResponse.h */,
+				03A954B91D68F4E6003BDFBD /* GECommonResponse.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		03A954FB1D68F5EE003BDFBD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				03A954C51D68F4E6003BDFBD /* GELocationSearchProtocol.h */,
+				03A954C81D68F4E6003BDFBD /* GESearchLocationManager.h */,
+				03A954C91D68F4E6003BDFBD /* GESearchLocationManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03404A5B1D0CC2F8002E4C1D /* AutocompleteSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03404A731D0CC2F8002E4C1D /* Build configuration list for PBXNativeTarget "AutocompleteSearch" */;
+			buildPhases = (
+				03404A581D0CC2F8002E4C1D /* Sources */,
+				03404A591D0CC2F8002E4C1D /* Frameworks */,
+				03404A5A1D0CC2F8002E4C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutocompleteSearch;
+			productName = GoEuro;
+			productReference = 03404A5C1D0CC2F8002E4C1D /* AutocompleteSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03404A541D0CC2F8002E4C1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					03404A5B1D0CC2F8002E4C1D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 03404A571D0CC2F8002E4C1D /* Build configuration list for PBXProject "AutocompleteSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03404A531D0CC2F8002E4C1D;
+			productRefGroup = 03404A5D1D0CC2F8002E4C1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03404A5B1D0CC2F8002E4C1D /* AutocompleteSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03404A5A1D0CC2F8002E4C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A954EA1D68F4E6003BDFBD /* Info.plist in Resources */,
+				03A954DE1D68F4E6003BDFBD /* Main.storyboard in Resources */,
+				03A954DC1D68F4E6003BDFBD /* Assets.xcassets in Resources */,
+				03A954DD1D68F4E6003BDFBD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03404A581D0CC2F8002E4C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A954E21D68F4E6003BDFBD /* GEDateTimePicker.m in Sources */,
+				03A954E01D68F4E6003BDFBD /* GEAutocompleteTextSearch.m in Sources */,
+				03A954E51D68F4E6003BDFBD /* GEGeoSearchServiceResponse.m in Sources */,
+				03A954F01D68F4E6003BDFBD /* SAWebFetcher.swift in Sources */,
+				03A954EF1D68F4E6003BDFBD /* SANetworkUtility.swift in Sources */,
+				03A954E11D68F4E6003BDFBD /* GECommonResponse.m in Sources */,
+				03A954E81D68F4E6003BDFBD /* GESearchLocationManager.m in Sources */,
+				03A954E61D68F4E6003BDFBD /* GELocation.m in Sources */,
+				03A954EC1D68F4E6003BDFBD /* NSString+Common.m in Sources */,
+				03A954E41D68F4E6003BDFBD /* GEGeoSearchServiceRequest.m in Sources */,
+				03A954EE1D68F4E6003BDFBD /* Reachability.swift in Sources */,
+				03A954DF1D68F4E6003BDFBD /* GEAppDelegate.m in Sources */,
+				03A954F11D68F4E6003BDFBD /* UIViewController+KeyboardFeature.m in Sources */,
+				03A954E71D68F4E6003BDFBD /* GEMainViewController.m in Sources */,
+				03A954E31D68F4E6003BDFBD /* GEGeoSearchService.m in Sources */,
+				03A954ED1D68F4E6003BDFBD /* SALogger.swift in Sources */,
+				03A954EB1D68F4E6003BDFBD /* main.m in Sources */,
+				03A954E91D68F4E6003BDFBD /* GEUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03A954B01D68F4E6003BDFBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A954B11D68F4E6003BDFBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		03A954B21D68F4E6003BDFBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A954B31D68F4E6003BDFBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03404A711D0CC2F8002E4C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03404A721D0CC2F8002E4C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03404A741D0CC2F8002E4C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AutocompleteSearch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmen.AutocompleteSearch;
+				PRODUCT_NAME = AutocompleteSearch;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03404A751D0CC2F8002E4C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AutocompleteSearch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmen.AutocompleteSearch;
+				PRODUCT_NAME = AutocompleteSearch;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03404A571D0CC2F8002E4C1D /* Build configuration list for PBXProject "AutocompleteSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03404A711D0CC2F8002E4C1D /* Debug */,
+				03404A721D0CC2F8002E4C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03404A731D0CC2F8002E4C1D /* Build configuration list for PBXNativeTarget "AutocompleteSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03404A741D0CC2F8002E4C1D /* Debug */,
+				03404A751D0CC2F8002E4C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03404A541D0CC2F8002E4C1D /* Project object */;
+}
