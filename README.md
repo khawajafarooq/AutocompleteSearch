@@ -22,6 +22,4 @@ I have designed a Networking API in SWIFT
 Bridging swift in objective c for network api call
 
 # What improvements can be done?
-1. Using Autolayout to allow application to work on different size of devices along with orientation
-2. UI could be improved by using proper button design and dropdown arrows
-3. User experience can be enhance by reducing user taps on the screen
+1. Move SAPI to swift 3.0
