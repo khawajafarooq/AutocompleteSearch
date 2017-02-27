@@ -98,7 +98,7 @@ let kStatusCodeOK: Int = 200
     public func startFetchingAsync() {
         
         if SANetworkUtility.hasConnectivity() {
-            SALogger.Log("Going to hit end point: " + self.url.absoluteString)
+            SALogger.Log("Going to hit end point: " + self.url.absoluteString!)
             
             self.requestState = .Executing
             let conn: NSURLConnection = NSURLConnection(request: self.executingRequest(), delegate:self, startImmediately:false)!

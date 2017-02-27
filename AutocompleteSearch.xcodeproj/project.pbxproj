@@ -71,6 +71,7 @@
 		03A954D91D68F4E6003BDFBD /* SAWebFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAWebFetcher.swift; sourceTree = "<group>"; };
 		03A954DA1D68F4E6003BDFBD /* UIViewController+KeyboardFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyboardFeature.h"; sourceTree = "<group>"; };
 		03A954DB1D68F4E6003BDFBD /* UIViewController+KeyboardFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyboardFeature.m"; sourceTree = "<group>"; };
+		03FFBBA41E5E9D7600581F4B /* UIViewController+KayboardFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+KayboardFeature.swift"; path = "../HideKeyboard/UIViewController+KayboardFeature.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 		03404A531D0CC2F8002E4C1D = {
 			isa = PBXGroup;
 			children = (
+				03FFBBA41E5E9D7600581F4B /* UIViewController+KayboardFeature.swift */,
 				03A954AE1D68F4E6003BDFBD /* AutocompleteSearch */,
 				03404A5D1D0CC2F8002E4C1D /* Products */,
 			);
@@ -466,10 +468,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/AutocompleteSearch/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmen.AutocompleteSearch;
 				PRODUCT_NAME = AutocompleteSearch;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -480,10 +483,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/AutocompleteSearch/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmen.AutocompleteSearch;
 				PRODUCT_NAME = AutocompleteSearch;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

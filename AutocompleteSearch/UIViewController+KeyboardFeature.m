@@ -1,8 +1,8 @@
 //
 //  ViewController+KeyboardFeature.m
-//  AutocompleteSearch
+//  Cateogry
 //
-//  Created by GIB on 6/12/16.
+//  Created by Farooq on 6/12/16.
 //
 //
 
